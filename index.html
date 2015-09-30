@@ -1,19 +1,29 @@
 <!DOCTYPE html>
+<!-- tabla/ ejercicio-->
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>HTML+JS Table</title>
-    <!-- No se han agregado estilos, pero podría ser una buena idea -->
-    <script>
-        /* Datos a mostrar en la tabla */
-        nombres = [
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <div class="contenedor">
+        <header><h1>HTML+JS Table</h1></header>
+        
+        <table style="width:50%">
+            
+            <tr> <td>No</td> <td>Nombres</td>  </tr>
+            
+            <script>           
+            var nombres = [
                 "Karina Sánchez",
                 "Ricardo Gonzales",
                 "Alejandro García",
                 "Perla Godinez",
                 "Daniel Lopez",
                 "Thania Montejo",
-                "Pamela Vaerla",
+                "Pamela Varela",
                 "Mónica Ginez",
                 "Aura Suárez",
                 "Alejandro García",
@@ -21,22 +31,13 @@
                 "Patricia Sanchez",
                 "Braulio Medina",
                 "Enrique García",
-                "Alejandra Medina"
-        ];
-    </script>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>HTML+JS Table</h1>
-        </header>
-        <table>
-            <!-- Posiblemente se tenga que colocar código HTML a mano que no
-                 es necesario que sea colocado por javascript -->
-            <script>
-                /* Remplazar la siguiente línea y colocar el código que genere
-                   cada renglón de la tabla */
-                document.write(nombres);
+                "Alejandra Medina" ];
+
+          for 
+                (i=0; i<=15;i+=1) {
+                document.write( '<tr><td>' + i  +'</td><td>'+ nombres[i] + '</td> </tr>)');
+            }
+
             </script>
         </table>
 

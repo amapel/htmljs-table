@@ -1,0 +1,36 @@
+/* css/main.css */
+
+body {
+    background-color: #798987;
+    text-align: center;
+    color:#fff;
+    padding: 2% 21%;
+}
+div.contenedor {
+    width: 105%;
+    background: -webkit-radial-gradient(rgba(15, 16, 49, 0.26), rgba(15, 16, 49, 0.31));
+    background: -o-radial-gradient(rgba(15, 16, 49, 0.26), rgba(15, 16, 49, 0.31));
+    background: -moz-radial-gradient(rgba(15, 16, 49, 0.26), rgba(15, 16, 49, 0.31));
+    background: radial-gradient(rgba(15, 16, 49, 0.26), rgba(15, 16, 49, 0.31));
+    border: 1.5px solid #bebf1a;
+    border-radius: 10px;
+    border: solid 3px #069692;
+}
+
+div#margen{
+    width: 105%;
+    height: 200px;
+    margin: 15px;
+    position: relative;
+}
+
+table{
+	margin: 0px center;
+}
+table, th, td {
+   border: solid 1px #069692;
+   text-align: center;
+   margin: 10px;
+   border: collapset;
+
+}
